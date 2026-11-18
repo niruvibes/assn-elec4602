@@ -1,0 +1,23 @@
+* Matched NMOS square / linear circuit
+.subckt square_linear in lns out
+
+VDD vdd 0 3
+VBIAS bias 0 0.95
+VOFF offset 0 50m
+
+EPLUS  gp bias in 0  1
+EMINUS gm bias in 0 -1
+
+VSP vdd dp 0
+VSM vdd dm 0
+VSR vdd dr 0
+
+MPLUS  dp gp   0 0 NCORE W=1u L=1u
+MMINUS dm gm   0 0 NCORE W=1u L=1u
+MREF   dr bias 0 0 NCORE W=1u L=1u
+
+BSEL vdd out I=(V(lns)>0.45) ? (I(VSP)-I(VSM)) : (I(VSP)+I(VSM)-2*I(VSR))
+ROUT out offset 20k
+
+.model NCORE NMOS (LEVEL=1 VTO=0.4 KP=100u LAMBDA=0)
+.ends square_linear
