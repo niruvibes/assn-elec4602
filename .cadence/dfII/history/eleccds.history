@@ -1,1 +1,1 @@
-("main:/\tmain assn schematic" (("open" (nil hierarchy "/{assn main schematic }:a"))) (((-2.325 -4.44375) (10.2875 1.68125)) "a" "Schematics" 4))
+("opamp:/\topamp assn schematic" (("open" (nil hierarchy "/{assn opamp schematic }:a"))) (((0.51875 -1.58125) (9.48125 1.9125)) "a" "Schematics" 8))("main:/\tmain assn schematic" (("open" (nil hierarchy "/{assn main schematic }:a"))) (((-1.24375 -6.3875) (11.40625 3.46875)) "a" "Schematics" 9))
