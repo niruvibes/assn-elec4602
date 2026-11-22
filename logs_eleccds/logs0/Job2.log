@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = assn
-	Cell         = tb_inputDifferential
+	Cell         = tb_main
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = ExplorerRun.0
-	Results DB   = /home/eleccds/cadence/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1
-	Results Loc  = /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro
+	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
 	Project Dir  = /home/eleccds/simulation
-	Setup DB loc = /home/eleccds/cadence/assn/tb_inputDifferential/maestro
+	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
 	File Encoding = 0
 
 
@@ -26,37 +26,48 @@
 
 *Info*    The auto suspension is disabled.
 
+Loading monte.cxt 
 
 
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
-          assn:tb_inputDifferential:1 ].
+*Info*    Run start for Point ID (0 1) on testbench [ assn:tb_main:1
+          ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
+Setting var Iref = "30u"
+Setting var VLNS = "0"
+Setting var VSG = "50m"
+Setting var Vdd = "3.3"
+Setting var Vin = "50m"
+Setting var Vref = "950m"
 Setting temp(T) = 27
-Setting var vin_dc = "250m"
 
 *Info*    Netlist Directory =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/netlist
+          /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1
+          /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 20 21:56:56 2026
-End netlisting Nov 20 21:56:56 2026
+Loading seCore.cxt 
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Nov 23 09:58:25 2026
+End netlisting Nov 23 09:58:25 2026
 
 Netlisting Statistics:
-	Number of components:   26
+	Number of components:   71
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -64,10 +75,10 @@ Errors: 0	Warnings: 0
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [
-          assn:tb_inputDifferential:1 ] for Point ID (1 1).
+*Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+          Point ID (0 1).
 
-Delete psf data in /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/psf.
+Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -76,78 +87,14 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
 
-          Error found by spectre in `opamp', during circuit
-          read-in.
-Error found by spectre in `opamp', during circuit
-          read-in.
-ERROR (SFE-23): "input.scs" 14: The instance `M4'
-          is referencing an undefined model or subcircuit,
-          `PMOS_THKOX'. Either include the file containing th
-e
-          definition of `PMOS_THKOX', or define `PMOS_THKOX' before
-          running the simulation.
-ERROR (SFE-23): "input.scs" 16: The
-          instance `M3' is referencing an undefined model or
-          subcircuit, `PMOS_THKOX'. Either include the file
-          containing th
-e definition of `PMOS_THKOX', or define
-          `PMOS_THKOX' before running the simulation.
-ERROR (SFE-23):
-          "input.scs" 18: The instance `M2' is referencing an
-          undefined model or subcircuit, `PMOS_THKOX'. Either include
-          the file containing th
-e definition of `PMOS_THKOX', or
-          define `PMOS_THKOX' before running the simulation.
-ERROR
-          (SFE-23): "input.scs" 20: The instance `M1' is referencing
-          an undefined model or subcircuit, `PMOS_THKOX'. Either
-          include the file containing th
-e definition of
-          `PMOS_THKOX', or define `PMOS_THKOX' before running the
-          simulation.
-ERROR (SFE-23): "input.scs" 22: The instance
-          `M0' is referencing an undefined model or subcircuit,
-          `PMOS_THKOX'. Either include the file containing th
-e
-          definition of `PMOS_THKOX', or define `PMOS_THKOX' before
-          running the simulation.
-ERROR (SFE-23): "input.scs" 24: The
-          instance `M8' is referencing an undefined model or
-          subcircuit, `NMOS_THKOX'. Either include the file
-          containing th
-e definition of `NMOS_THKOX', or define
-          `NMOS_THKOX' before running the simulation.
-ERROR (SFE-23):
-          "input.scs" 26: The instance `M7' is referencing an
-          undefined model or subcircuit, `NMOS_THKOX'. Either include
-          the file containing th
-e definition of `NMOS_THKOX', or
-          define `NMOS_THKOX' before running the simulation.
-ERROR
-          (SFE-23): "input.scs" 28: The instance `M6' is referencing
-          an undefined model or subcircuit, `NMOS_THKOX'. Either
-          include the file containing th
-e definition of
-          `NMOS_THKOX', or define `NMOS_THKOX' before running the
-          simulation.
-ERROR (SFE-23): "input.scs" 30: The instance
-          `R0' is referencing an undefined model or subcircuit,
-          `POLYR'. Either include the file containing the def
-inition
-          of `POLYR', or define `POLYR' before running the
-          simulation.
-ERROR (SFE-23): "input.scs" 31: The instance
-          `C0' is referencing an undefined model or subcircuit,
-          `MIMC'. Either include the file containing the defi
-nition
-          of `MIMC', or define `MIMC' before running the simulation.
+*Info*    Run complete for Point ID (0 1) on testbench [
+          assn:tb_main:1 ].
 
 
 
