@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = assn
-	Cell         = tb_inputDifferential
+	Cell         = tb_levelShifter
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = ExplorerRun.0
-	Results DB   = /home/eleccds/cadence/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1
-	Results Loc  = /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro
+	Results DB   = /home/eleccds/cadence/assn/tb_levelShifter/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/assn/tb_levelShifter/maestro/results/maestro/ExplorerRun.0/1/assn:tb_levelShifter:1
+	Results Loc  = /home/eleccds/simulation/assn/tb_levelShifter/maestro/results/maestro
 	Project Dir  = /home/eleccds/simulation
-	Setup DB loc = /home/eleccds/cadence/assn/tb_inputDifferential/maestro
+	Setup DB loc = /home/eleccds/cadence/assn/tb_levelShifter/maestro
 	File Encoding = 0
 
 
@@ -31,32 +31,32 @@
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [
-          assn:tb_inputDifferential:1 ].
+*Info*    Run start for Point ID (3 1) on testbench [
+          assn:tb_levelShifter:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
 Setting temp(T) = 27
-Setting var vin_dc = "250m"
+Setting var vtest = "0"
 
 *Info*    Netlist Directory =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/netlist
+          /home/eleccds/simulation/assn/tb_levelShifter/maestro/results/maestro/ExplorerRun.0/1/assn:tb_levelShifter:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1
+          /home/eleccds/simulation/assn/tb_levelShifter/maestro/results/maestro/ExplorerRun.0/1/assn:tb_levelShifter:1
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 23 02:15:44 2026
-End netlisting Nov 23 02:15:44 2026
+Begin Incremental Netlisting Nov 23 04:21:20 2026
+End netlisting Nov 23 04:21:20 2026
 
 Netlisting Statistics:
-	Number of components:    6
+	Number of components:    2
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -64,10 +64,10 @@ Errors: 0	Warnings: 0
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [
-          assn:tb_inputDifferential:1 ] for Point ID (0 1).
+*Info*    Running simulation on testbench [ assn:tb_levelShifter:1 ]
+          for Point ID (3 1).
 
-Delete psf data in /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/psf.
+Delete psf data in /home/eleccds/simulation/assn/tb_levelShifter/maestro/results/maestro/ExplorerRun.0/1/assn:tb_levelShifter:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -81,9 +81,15 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+ERROR (EXPLORER-2708): Evaluation of output 'NlvlOut' failed for point:'1' test:'assn:tb_levelShifter:1'
+	Expression:'NlvlOut'
+	because of the following error(s)
+	*Error* eval: unbound variable.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (0 1) on testbench [
-          assn:tb_inputDifferential:1 ].
+
+*Info*    Run complete for Point ID (3 1) on testbench [
+          assn:tb_levelShifter:1 ].
 
 
 
