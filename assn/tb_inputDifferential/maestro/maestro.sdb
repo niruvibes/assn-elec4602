@@ -35,10 +35,13 @@
 					<output>/opSub
 						<evalType>point</evalType>
 					</output>
-					<output>/net1
+					<output>"/Vin"
 						<evalType>point</evalType>
 					</output>
 					<output>/vbias
+						<evalType>point</evalType>
+					</output>
+					<output>/Vin
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -138,10 +141,13 @@
 							<output>/opSub
 								<evalType>point</evalType>
 							</output>
-							<output>/net1
+							<output>"/Vin"
 								<evalType>point</evalType>
 							</output>
 							<output>/vbias
+								<evalType>point</evalType>
+							</output>
+							<output>/Vin
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -265,7 +271,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 20 22:09:41 2026</timestamp>
+			<timestamp>Nov 23 02:15:34 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -273,7 +279,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_220941508</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_021534085</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>

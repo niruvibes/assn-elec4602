@@ -58,66 +58,39 @@ Initializing the control file using cp:
     cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/netlist/control
 Copying Spectre source file 'spectre.inp'
 Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Nov 20 21:53:17 2026
-ERROR (OSSHNL-108): The property, 'connectivityLastUpdated', specified on library 'assn', cell 'opamp',
-view 'schematic', does not have an integer value. Re-extract the design (File->Check
-and Save menu option) to correct this error.
+Begin Incremental Netlisting Nov 23 02:08:16 2026
+End netlisting Nov 23 02:08:16 2026
 
-ERROR (OSSHNL-108): The property, 'connectivityLastUpdated', specified on library 'assn', cell 'opamp',
-view 'schematic', does not have an integer value. Re-extract the design (File->Check
-and Save menu option) to correct this error.
+Netlisting Statistics:
+	Number of components:   26
 
-End netlisting Nov 20 21:53:17 2026
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
+	Elapsed time:          1.0s (26.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
 
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+*Info*    Running simulation on testbench [
+          assn:tb_inputDifferential:1 ] for Point ID (0 1).
+
+Delete psf data in /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
 
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (0 1) on testbench [
+*Info*    Run complete for Point ID (0 1) on testbench [
           assn:tb_inputDifferential:1 ].
 
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting temp(T) = 27
-Setting var vin_dc = "250m"
-
-*Info*    Netlist Directory =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1/netlist
-
-
-*Info*    Data Directory    =
-          /home/eleccds/simulation/assn/tb_inputDifferential/maestro/results/maestro/ExplorerRun.0/1/assn:tb_inputDifferential:1
-
-
-*Info*    Creating Netlist for Point ID (0 1)
-
-generate netlist...
-Begin Incremental Netlisting Nov 20 21:53:27 2026
-ERROR (OSSHNL-108): The property, 'connectivityLastUpdated', specified on library 'assn', cell 'opamp',
-view 'schematic', does not have an integer value. Re-extract the design (File->Check
-and Save menu option) to correct this error.
-
-ERROR (OSSHNL-108): The property, 'connectivityLastUpdated', specified on library 'assn', cell 'opamp',
-view 'schematic', does not have an integer value. Re-extract the design (File->Check
-and Save menu option) to correct this error.
-
-End netlisting Nov 20 21:53:27 2026
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
 
 
 
