@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eleccds
+HostName                       vbox
+ProcessIdentifier              3006
+ProcessCreationTime_UTC        1795381887
+ProcessCreationTime_Readable   Mon Nov 23 08:11:27 2026 AEDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eleccds/cadence/assn/main/symbol/symbol.oa.cdslck
+TimeEditLocked                 Mon Nov 23 09:00:03 2026 AEDT
