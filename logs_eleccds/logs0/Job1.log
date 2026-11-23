@@ -950,3 +950,282 @@
 \o 
 \o 
 \o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (8 4) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/4/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (8 4).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/4/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (8 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o *Info*    Completed simulation for points ((8 1) (8 2) (8 3) (8 4)).
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o *Info*    Run start for points ((9 1) (9 2) (9 3) (9 4))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 1) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var Rs = "15k"
+\o Setting var VLNS = "0"
+\o Setting var VN = "0.5"
+\o Setting var VOS = "0.0243"
+\o Setting var VS0 = "0.443"
+\o Setting var VS1 = "0.469"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 19:41:41 2026
+\o End netlisting Nov 23 19:41:41 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (9 1).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 1) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 2) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (9 2).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 3) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0"
+\o Setting var Vdd = "3.3"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/3/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (9 3).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/3/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 3) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 4) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/4/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (9 4).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/4/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    (ADE-3072): Simulation stopped because you selected the
+\o           'Stop Simulation' command in ADE.
+\o 
+\o *Info*    Completed simulation for points ((9 1) (9 2) (9 3) (9 4)).
+\o 
