@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2026.11.23 02:08:55.852
-\# Local time: AEDT (UTC+11:00) 2026.11.23 13:08:55.852
+\# Program start time:     UTC 2026.11.23 06:57:22.856
+\# Local time: AEDT (UTC+11:00) 2026.11.23 17:57:22.856
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 12/04/2018 19:24 (sjfhw316) $
 \o Hierarchy:		/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.500.23  (64-bit addresses)
-\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3040 -mpshost vbox -davinciService DaVinciService_3040_1795399731 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_3040 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso11640 -mpshost vbox -davinciService DaVinciService_11640_1795417038 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_11640 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	vbox (x86_64)
 \# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 3892)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 12443)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        459 MB
-\# Available memory:	      6,475 MB
+\# Initial sbrk value:	        465 MB
+\# Available memory:	      6,007 MB
 \# System memory:	      7,757 MB
-\# Maximum memory size:	      7,373 MB
-\# Max mem available:	      6,550 MB
+\# Maximum memory size:	      7,367 MB
+\# Max mem available:	      6,082 MB
 \# Initial memory used:	         75 MB
 \#        process size:	      1,066 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 1.00/1.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		eleccds
 \o Working Directory:	vbox:/home/eleccds/cadence
-\# Process Id:		3922
+\# Process Id:		12461
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -68,7 +68,7 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
-\o *INFO* (icLic-303) virtuoso: PID=3922, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\o *INFO* (icLic-303) virtuoso: PID=12461, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
 \o //
 \o //  Calibre Skill Interface * (v2019.1_18.11) *
 \o //
@@ -79,7 +79,6 @@
 \o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 \o //
 \o //
-\# Memory report: using         205 MB, process size 1,318 MB at UTC 2026.11.23 02:08:57.286
 \e *Error* iliMakeDefstruct: defstruct field name not known - (GlobalDefs ?MinWTO)
 \o loading vars from /usr/local/cadence/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
 \o ---------------------------------------------------------------------------
@@ -125,14 +124,469 @@
 \o Loading pe.cxt 
 \a _treeSetOpcGUI(t)
 \r t
-\# Available memory:          6,280 MB at UTC 2026.11.23 02:09:06.116
-\# Memory report: Maximum memory size now 6,487 MB at UTC 2026.11.23 02:09:06.116
-\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.23 02:09:06.116
-\o Job 0 timed out after no activity in 300 seconds.
+\# Available memory:          5,881 MB at UTC 2026.11.23 06:57:33.061
+\# Memory report: Maximum memory size now 6,087 MB at UTC 2026.11.23 06:57:33.061
+\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.23 06:57:33.061
+\# Memory report: using         207 MB, process size 1,320 MB at UTC 2026.11.23 06:57:33.062
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
 \o Loading simui.cxt 
+\o *INFO* (icLic-304) Start to connect to parent process (session=virtuoso11640, host=vbox). Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o *INFO* (icLic-305) Step 1: Connecting to parent. Spent time is 0 seconds.
+\o *INFO* (icLic-309) The registration of the child 12461 within 90 seconds is being processed ...
+\o *INFO* (icLic-310) The result of registration is true. Spend time is 0 seconds.
+\o *INFO* (icLic-308) The end of connection. Result is true. Total spent time is 0 seconds.
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((0 1) (0 2))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var VLNS = "0"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3.3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Nov 23 17:59:51 2026
+\o End netlisting Nov 23 17:59:51 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   77
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (0 1).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (nil - srrWave:0x298ec020)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '(VS("/VIn") - VS("/Vsg"))' failed for point:'1' test:'assn:tb_main:1'
+\o 	Expression:'(VS("/VIn") - VS("/Vsg"))'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (nil - srrWave:0x298ec020).
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (0 2).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (nil - srrWave:0x298aa020)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '(VS("/VIn") - VS("/Vsg"))' failed for point:'2' test:'assn:tb_main:1'
+\o 	Expression:'(VS("/VIn") - VS("/Vsg"))'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (nil - srrWave:0x298aa020).
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Completed simulation for points ((0 1) (0 2)).
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o *Info*    Run start for points ((1 1) (1 2))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var VLNS = "0"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3.3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 18:00:10 2026
+\o End netlisting Nov 23 18:00:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (1 1).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\# Memory report: Maximum memory size now 5,953 MB at UTC 2026.11.23 07:00:12.271
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 2) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (1 2).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Completed simulation for points ((1 1) (1 2)).
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o *Info*    Run start for points ((2 1) (2 2))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var VLNS = "0"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3.3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 18:00:53 2026
+\o End netlisting Nov 23 18:00:53 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (2 1).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 1) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 2) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VLNS = "0.9"
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
+\o 
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (2 2).
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Completed simulation for points ((2 1) (2 2)).
+\o 
+\o Job 0 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            211 MB, process size 1,324 MB at UTC 2026.11.23 02:13:57.314
-\# Memory report: peak usage         211 MB, process size 1,324 MB
