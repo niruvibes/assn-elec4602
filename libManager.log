@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso11640 -mpshost vbox 
+\o Arguments:		-mpssession virtuoso19890 -mpshost vbox 
 \o Working Directory:	vbox:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -14,28 +14,14 @@
 \o Library Manager customization server connected.
 \a cdsLibManager->libListBox->value = "assn"
 \a cdsLibManager->libLineEdit->value = "assn"
-\a nrListItemAction(cdsLibManager->libListBox "assn" 0)
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "assn"
-\a cdsLibManager->libLineEdit->value = "assn"
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 7 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "assn"
 \a cdsLibManager->libLineEdit->value = "assn"
 \a cdsLibManager->cellListBox->value = "tb_main"
@@ -49,5 +35,3 @@
 \a cdsLibManager->libLineEdit->value = "assn"
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)

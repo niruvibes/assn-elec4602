@@ -570,5 +570,223 @@
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>assn:tb_main:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>tb_main</value>
+							</option>
+							<option>lib
+								<value>assn</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>state
+								<value>ExplorerRun.0</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>Vdd
+								<value>3.3</value>
+							</var>
+							<var>Vin
+								<value>50m</value>
+							</var>
+							<var>Vref
+								<value>1.3</value>
+							</var>
+							<var>Iref
+								<value>30u</value>
+							</var>
+							<var>VSG
+								<value>0.6</value>
+							</var>
+							<var>VLNS
+								<value>0 0.9</value>
+							</var>
+							<var>Rload
+								<value>1M</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>tb_main</value>
+							</option>
+							<option>lib
+								<value>assn</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>(VT("/vin_src") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/Vout") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/vconv") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/Vout") - VS("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/VIn") - VS("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/Vin") - VS("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/Vin") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>clip((VT("/Vin") - VT("/Vsg")) 0.0002 0.0003)
+								<evalType>point</evalType>
+							</output>
+							<output>clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003)
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">assn:tb_main:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>Auto</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>autoplotsignals
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotwaveexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotscalarexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignname
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatesimdate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignvars
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatetemperature
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatescalaroutputs
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatespecmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>directplotmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>directplotafter
+						<value>All Selections Are Made</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>printafter
+						<value>Each Selection</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<runnabletests>
+					<test>assn:tb_main:1</test>
+				</runnabletests>
+				<disabledtests></disabledtests>
+				<vars></vars>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 23 18:48:43 2026</timestamp>
+			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_184843522</localpsfdir>
+			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
 	</history>
 </setupdb>

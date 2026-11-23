@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      eleccds
 HostName                       vbox
-ProcessIdentifier              12257
-ProcessCreationTime_UTC        1795417000
-ProcessCreationTime_Readable   Mon Nov 23 17:56:40 2026 AEDT
+ProcessIdentifier              20512
+ProcessCreationTime_UTC        1795420107
+ProcessCreationTime_Readable   Mon Nov 23 18:48:27 2026 AEDT
 AppIdentifier                  /usr/local/cadence/IC617-500-23/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/eleccds/cadence/libManager.log
-TimeEditLocked                 Mon Nov 23 17:56:40 2026 AEDT
+TimeEditLocked                 Mon Nov 23 18:48:27 2026 AEDT
