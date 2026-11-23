@@ -47,6 +47,9 @@
 					<var>VLNS
 						<value>0.9</value>
 					</var>
+					<var>Rload
+						<value>10000 20000 100000 1000000</value>
+					</var>
 				</vars>
 				<origoptions>
 					<option>cell
@@ -73,6 +76,24 @@
 						<evalType>point</evalType>
 					</output>
 					<output>deriv((IS("/I0/M3/D") - IS("/I0/M4/D")))
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/Vin") - VT("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vin_src") - VT("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/Vout") - VT("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vconv") - VT("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VS("/Vin") - VS("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VS("/Vconv") - VS("/Vsg"))
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -170,6 +191,9 @@
 							<var>VLNS
 								<value>0.9</value>
 							</var>
+							<var>Rload
+								<value>10000 20000 100000 1000000</value>
+							</var>
 						</vars>
 						<origoptions>
 							<option>cell
@@ -196,6 +220,24 @@
 								<evalType>point</evalType>
 							</output>
 							<output>deriv((IS("/I0/M3/D") - IS("/I0/M4/D")))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/Vin") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/vin_src") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/Vout") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/vconv") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/Vin") - VS("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/Vconv") - VS("/Vsg"))
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -302,7 +344,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 11:52:15 2026</timestamp>
+			<timestamp>Nov 23 14:18:01 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -310,7 +352,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_115215041</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_141801621</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>

@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso2953 -mpshost vbox 
+\o Arguments:		-mpssession virtuoso3040 -mpshost vbox 
 \o Working Directory:	vbox:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -14,7 +14,6 @@
 \o Library Manager customization server connected.
 \a cdsLibManager->libListBox->value = "assn"
 \a cdsLibManager->libLineEdit->value = "assn"
-\a nrListItemAction(cdsLibManager->libListBox "assn" 0)
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
 \o MPS request: edit design
@@ -37,68 +36,20 @@
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "assn"
-\a cdsLibManager->libLineEdit->value = "assn"
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "assn"
-\a cdsLibManager->libLineEdit->value = "assn"
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "assn"
-\a cdsLibManager->libLineEdit->value = "assn"
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "assn"
-\a cdsLibManager->libLineEdit->value = "assn"
-\a cdsLibManager->cellListBox->value = "main"
-\a cdsLibManager->cellLineEdit->value = "main"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\o MPS service: shutdown
-\o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "opamp"
+\a cdsLibManager->cellLineEdit->value = "opamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

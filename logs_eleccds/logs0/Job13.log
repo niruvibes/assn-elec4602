@@ -39,7 +39,7 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var Iref = "30u"
-Setting var VLNS = "0.9"
+Setting var VLNS = "0"
 Setting var VSG = "0"
 Setting var Vdd = "3.3"
 Setting var Vin = "50m"
@@ -57,11 +57,14 @@ Setting temp(T) = 27
 *Info*    Creating Netlist for Point ID (6 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 23 11:52:15 2026
-End netlisting Nov 23 11:52:15 2026
+Begin Incremental Netlisting Nov 23 13:23:17 2026
+End netlisting Nov 23 13:23:17 2026
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   13
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.

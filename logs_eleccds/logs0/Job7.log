@@ -57,11 +57,11 @@ Setting temp(T) = 27
 *Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 23 11:33:22 2026
-End netlisting Nov 23 11:33:23 2026
+Begin Incremental Netlisting Nov 23 13:17:30 2026
+End netlisting Nov 23 13:17:30 2026
 
 	The netlist is up to date.
-	Time taken to compare the design with netlist:   1.0s
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
