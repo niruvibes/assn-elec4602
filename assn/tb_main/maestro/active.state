@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 14:26:03" version="5">active
+<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 14:52:08" version="5">active
 	<Test Name="assn:tb_main:1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("assn" "tb_main" "schematic" "spectre")</field>
@@ -1552,7 +1552,7 @@
 					</field>
 					<field Name="outputList_35" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">(VS("/Vout") - VS("/Vsg"))</field>
+						<field Name="expression" Type="list">(VS("/Vin") - VS("/Vsg"))</field>
 						<field Name="signal" Type="list">nil</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
@@ -1572,7 +1572,7 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">nil</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="symbol">t</field>
+						<field Name="plot" Type="list">nil</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="index" Type="fixnum">36</field>
@@ -1585,7 +1585,7 @@
 					</field>
 					<field Name="outputList_36" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">(VS("/Vin") - VS("/Vsg"))</field>
+						<field Name="expression" Type="list">(VT("/Vin") - VT("/Vsg"))</field>
 						<field Name="signal" Type="list">nil</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
@@ -1618,7 +1618,7 @@
 					</field>
 					<field Name="outputList_37" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">(VT("/Vin") - VT("/Vsg"))</field>
+						<field Name="expression" Type="list">(VS("/Vout") - VS("/Vsg"))</field>
 						<field Name="signal" Type="list">nil</field>
 						<field Name="scriptFile" Type="list">nil</field>
 						<field Name="type2" Type="list">nil</field>
@@ -1638,7 +1638,7 @@
 						<field Name="areaTable" Type="list">nil</field>
 						<field Name="selectionDetail" Type="list">nil</field>
 						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
 						<field Name="index" Type="fixnum">38</field>
@@ -1650,39 +1650,6 @@
 						<field Name="waveSpec" Type="list">nil</field>
 					</field>
 					<field Name="outputList_38" Type="defstruct">sevOutputStruct
-						<field Name="name" Type="list">nil</field>
-						<field Name="expression" Type="list">(VT("/Vout") - VT("/Vsg"))</field>
-						<field Name="signal" Type="list">nil</field>
-						<field Name="scriptFile" Type="list">nil</field>
-						<field Name="type2" Type="list">nil</field>
-						<field Name="evalType" Type="symbol">point</field>
-						<field Name="displayIt" Type="symbol">t</field>
-						<field Name="internalName" Type="list">nil</field>
-						<field Name="masterName" Type="list">nil</field>
-						<field Name="masterScriptFile" Type="list">nil</field>
-						<field Name="saveScriptFile" Type="list">nil</field>
-						<field Name="saveMasterScriptFile" Type="list">nil</field>
-						<field Name="isReferenced" Type="list">nil</field>
-						<field Name="lastEvalTime" Type="list">nil</field>
-						<field Name="origin" Type="list">nil</field>
-						<field Name="sweepSet" Type="list">nil</field>
-						<field Name="depList" Type="list">nil</field>
-						<field Name="type" Type="list">nil</field>
-						<field Name="areaTable" Type="list">nil</field>
-						<field Name="selectionDetail" Type="list">nil</field>
-						<field Name="value" Type="list">nil</field>
-						<field Name="plot" Type="list">nil</field>
-						<field Name="save" Type="list">nil</field>
-						<field Name="march" Type="list">nil</field>
-						<field Name="index" Type="fixnum">39</field>
-						<field Name="timeStamp" Type="list">nil</field>
-						<field Name="graphType" Type="list">nil</field>
-						<field Name="yaxisLabel" Type="list">nil</field>
-						<field Name="label" Type="list">nil</field>
-						<field Name="yaxisUnit" Type="list">nil</field>
-						<field Name="waveSpec" Type="list">nil</field>
-					</field>
-					<field Name="outputList_39" Type="defstruct">sevOutputStruct
 						<field Name="name" Type="list">nil</field>
 						<field Name="expression" Type="list">(VS("/Vconv") - VS("/Vsg"))</field>
 						<field Name="signal" Type="list">nil</field>
@@ -1707,7 +1674,73 @@
 						<field Name="plot" Type="symbol">t</field>
 						<field Name="save" Type="list">nil</field>
 						<field Name="march" Type="list">nil</field>
+						<field Name="index" Type="fixnum">39</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+					</field>
+					<field Name="outputList_39" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">((VS("/I0/gp") - VS("/I0/gm")) / 2)</field>
+						<field Name="signal" Type="list">nil</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="symbol">point</field>
+						<field Name="displayIt" Type="symbol">t</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="list">nil</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">nil</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="list">nil</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
 						<field Name="index" Type="fixnum">40</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+					</field>
+					<field Name="outputList_40" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">(VS("/vin_dut") - VS("/Vsg"))</field>
+						<field Name="signal" Type="list">nil</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="symbol">point</field>
+						<field Name="displayIt" Type="symbol">t</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="list">nil</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">nil</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="list">nil</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="index" Type="fixnum">41</field>
 						<field Name="timeStamp" Type="list">nil</field>
 						<field Name="graphType" Type="list">nil</field>
 						<field Name="yaxisLabel" Type="list">nil</field>
@@ -2100,7 +2133,7 @@
 				</field>
 				<field Name="saveComponent_5" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"VLNS"</field>
-					<field Name="expression" Type="string">"0.9"</field>
+					<field Name="expression" Type="string">"0"</field>
 					<field Name="index" Type="fixnum">6</field>
 				</field>
 				<field Name="saveComponent_6" Type="defstruct">sevVariableStruct

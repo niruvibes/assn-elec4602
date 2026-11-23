@@ -45,10 +45,10 @@
 						<value>0.6</value>
 					</var>
 					<var>VLNS
-						<value>0.9</value>
+						<value>0 0.9</value>
 					</var>
 					<var>Rload
-						<value>10k</value>
+						<value>10k 20k 100k 1M</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -94,6 +94,12 @@
 						<evalType>point</evalType>
 					</output>
 					<output>(VS("/Vconv") - VS("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>((VS("/I0/gp") - VS("/I0/gm")) / 2)
+						<evalType>point</evalType>
+					</output>
+					<output>(VS("/vin_dut") - VS("/Vsg"))
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -189,10 +195,10 @@
 								<value>0.6</value>
 							</var>
 							<var>VLNS
-								<value>0.9</value>
+								<value>0 0.9</value>
 							</var>
 							<var>Rload
-								<value>10k</value>
+								<value>10k 20k 100k 1M</value>
 							</var>
 						</vars>
 						<origoptions>
@@ -238,6 +244,12 @@
 								<evalType>point</evalType>
 							</output>
 							<output>(VS("/Vconv") - VS("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>((VS("/I0/gp") - VS("/I0/gm")) / 2)
+								<evalType>point</evalType>
+							</output>
+							<output>(VS("/vin_dut") - VS("/Vsg"))
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -344,7 +356,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 14:26:02 2026</timestamp>
+			<timestamp>Nov 23 14:52:08 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -352,7 +364,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_142602293</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_145208185</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
