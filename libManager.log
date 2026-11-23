@@ -50,3 +50,4 @@
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
