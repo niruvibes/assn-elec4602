@@ -1,0 +1,99 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = assn
+	Cell         = tb_main
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ExplorerRun.0
+	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+	Project Dir  = /home/eleccds/simulation
+	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+	File Encoding = 0
+
+
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (22 1) on testbench [ assn:tb_main:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Iref = "30u"
+Setting var VLNS = "0"
+Setting var VSG = "0"
+Setting var Vdd = "3.3"
+Setting var Vin = "50m"
+Setting var Vref = "1.3"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+
+
+*Info*    Creating Netlist for Point ID (22 1)
+
+generate netlist...
+Begin Incremental Netlisting Nov 23 10:58:08 2026
+End netlisting Nov 23 10:58:08 2026
+
+Netlisting Statistics:
+	Number of components:   54
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+          Point ID (22 1).
+
+Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (22 1) on testbench [
+          assn:tb_main:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.
