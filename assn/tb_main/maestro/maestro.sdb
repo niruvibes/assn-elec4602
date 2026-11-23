@@ -157,10 +157,10 @@
 						<value>0.6</value>
 					</var>
 					<var>VLNS
-						<value>0</value>
+						<value>0 0.9</value>
 					</var>
 					<var>Rload
-						<value>20k</value>
+						<value>1M</value>
 					</var>
 					<var>Rs
 						<value>15k</value>
@@ -980,10 +980,10 @@
 								<value>0.6</value>
 							</var>
 							<var>VLNS
-								<value>0</value>
+								<value>0 0.9</value>
 							</var>
 							<var>Rload
-								<value>20k</value>
+								<value>1M</value>
 							</var>
 							<var>Rs
 								<value>15k</value>
@@ -1256,7 +1256,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 21:07:42 2026</timestamp>
+			<timestamp>Nov 23 22:33:04 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1264,7 +1264,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_210742197</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_223304292</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
