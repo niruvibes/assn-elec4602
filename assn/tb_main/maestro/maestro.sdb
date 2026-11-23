@@ -3,10 +3,122 @@
 	<active>Active Setup
 		<corners>
 			<corner enabled="1">_default</corner>
+			<corner enabled="1">FF
+				<models>
+					<model enabled="1">hspice_ff.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_sf.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_fs.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_ss.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SF
+				<models>
+					<model enabled="0">hspice_ff.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">hspice_sf.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_fs.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_ss.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">FS
+				<models>
+					<model enabled="0">hspice_ff.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_sf.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">hspice_fs.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_ss.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SS
+				<models>
+					<model enabled="0">hspice_ff.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_sf.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">hspice_fs.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">hspice_ss.include
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
 		</corners>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>assn:tb_main:1
+			<test enabled="1">assn:tb_main:1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -48,7 +160,7 @@
 						<value>0 0.9</value>
 					</var>
 					<var>Rload
-						<value>10k 20k 100k 1M</value>
+						<value>20k</value>
 					</var>
 					<var>VN
 						<value>0.5</value>
@@ -586,10 +698,122 @@
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
+					<corner enabled="1">FF
+						<models>
+							<model enabled="1">hspice_ff.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_sf.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_fs.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_ss.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF
+						<models>
+							<model enabled="0">hspice_ff.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">hspice_sf.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_fs.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_ss.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS
+						<models>
+							<model enabled="0">hspice_ff.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_sf.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">hspice_fs.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_ss.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS
+						<models>
+							<model enabled="0">hspice_ff.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ff.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_sf.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_sf.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">hspice_fs.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_fs.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">hspice_ss.include
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/usr/local/cadence/FreePDK45/ncsu_basekit/models/hspice/hspice_ss.include</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
 				</corners>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>assn:tb_main:1
+					<test enabled="1">assn:tb_main:1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
@@ -631,7 +855,7 @@
 								<value>0 0.9</value>
 							</var>
 							<var>Rload
-								<value>1M</value>
+								<value>20k</value>
 							</var>
 							<var>VN
 								<value>0.5</value>
@@ -795,7 +1019,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 19:03:52 2026</timestamp>
+			<timestamp>Nov 23 19:22:20 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -803,7 +1027,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_190352044</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_192220177</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
