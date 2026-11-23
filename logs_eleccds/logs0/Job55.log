@@ -823,3 +823,10 @@
 \o *Info*    Completed simulation for points ((26 1) (26 2) (26 3) (26
 \o           4)).
 \o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

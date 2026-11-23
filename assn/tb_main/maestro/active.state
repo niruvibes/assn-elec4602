@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 14:18:02" version="5">active
+<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 14:26:03" version="5">active
 	<Test Name="assn:tb_main:1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="designInfo" Type="list">("assn" "tb_main" "schematic" "spectre")</field>
@@ -2095,7 +2095,7 @@
 				</field>
 				<field Name="saveComponent_4" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"VSG"</field>
-					<field Name="expression" Type="string">"0"</field>
+					<field Name="expression" Type="string">"0.6"</field>
 					<field Name="index" Type="fixnum">5</field>
 				</field>
 				<field Name="saveComponent_5" Type="defstruct">sevVariableStruct
@@ -2105,7 +2105,7 @@
 				</field>
 				<field Name="saveComponent_6" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"Rload"</field>
-					<field Name="expression" Type="string">"10000 20000 100000 1000000"</field>
+					<field Name="expression" Type="string">"10k"</field>
 					<field Name="index" Type="fixnum">7</field>
 				</field>
 			</field>
