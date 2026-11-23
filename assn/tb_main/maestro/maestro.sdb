@@ -352,7 +352,7 @@
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">nominal_trans_both_modes
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -378,7 +378,7 @@
 								<value>schematic</value>
 							</option>
 							<option>state
-								<value>ExplorerRun.0</value>
+								<value>nominal_trans_both_modes</value>
 							</option>
 						</tooloptions>
 						<vars>
@@ -554,19 +554,19 @@
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
 			<timestamp>Nov 23 18:26:02 2026</timestamp>
-			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
+			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/nominal_trans_both_modes.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/nominal_trans_both_modes.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
 			<localpsfdir>/tmp/vbox_eleccds_182602087</localpsfdir>
-			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
+			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/nominal_trans_both_modes</psfdir>
+			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/nominal_trans_both_modes</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
+			<runlog>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/nominal_trans_both_modes.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/nominal_trans_both_modes.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
