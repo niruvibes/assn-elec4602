@@ -1229,3 +1229,11 @@
 \o 
 \o *Info*    Completed simulation for points ((9 1) (9 2) (9 3) (9 4)).
 \o 
+\o Job 1 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

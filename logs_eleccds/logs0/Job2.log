@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2026.11.23 07:24:39.170
-\# Local time: AEDT (UTC+11:00) 2026.11.23 18:24:39.170
+\# Program start time:     UTC 2026.11.23 09:16:14.092
+\# Local time: AEDT (UTC+11:00) 2026.11.23 20:16:14.092
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 12/04/2018 19:24 (sjfhw316) $
 \o Hierarchy:		/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.500.23  (64-bit addresses)
-\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso11640 -mpshost vbox -davinciService DaVinciService_11640_1795417038 -log /home/eleccds/cadence/logs_eleccds/logs0/Job2.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_11640 -nograph -nostdin -axlChildIdFlag 2
+\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24335 -mpshost vbox -davinciService DaVinciService_24335_1795421530 -log /home/eleccds/cadence/logs_eleccds/logs0/Job2.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_24335 -nograph -nostdin -axlChildIdFlag 2
 \# Host name (type):	vbox (x86_64)
 \# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 17003)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 6504)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        484 MB
-\# Available memory:	      5,431 MB
+\# Initial sbrk value:	        469 MB
+\# Available memory:	      5,319 MB
 \# System memory:	      7,757 MB
-\# Maximum memory size:	      7,348 MB
-\# Max mem available:	      5,505 MB
+\# Maximum memory size:	      7,363 MB
+\# Max mem available:	      5,393 MB
 \# Initial memory used:	         75 MB
 \#        process size:	      1,066 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 1.00/1.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		eleccds
 \o Working Directory:	vbox:/home/eleccds/cadence
-\# Process Id:		17020
+\# Process Id:		6523
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -68,7 +68,7 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
-\o *INFO* (icLic-303) virtuoso: PID=17020, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\o *INFO* (icLic-303) virtuoso: PID=6523, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
 \o //
 \o //  Calibre Skill Interface * (v2019.1_18.11) *
 \o //
@@ -79,7 +79,7 @@
 \o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 \o //
 \o //
-\# Memory report: using         202 MB, process size 1,315 MB at UTC 2026.11.23 07:24:40.231
+\# Memory report: using         202 MB, process size 1,315 MB at UTC 2026.11.23 09:16:15.161
 \e *Error* iliMakeDefstruct: defstruct field name not known - (GlobalDefs ?MinWTO)
 \o loading vars from /usr/local/cadence/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
 \o ---------------------------------------------------------------------------
@@ -145,9 +145,9 @@
 \o 
 \o 
 \o Loading simui.cxt 
-\o *INFO* (icLic-304) Start to connect to parent process (session=virtuoso11640, host=vbox). Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o *INFO* (icLic-304) Start to connect to parent process (session=virtuoso24335, host=vbox). Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o *INFO* (icLic-305) Step 1: Connecting to parent. Spent time is 0 seconds.
-\o *INFO* (icLic-309) The registration of the child 17020 within 90 seconds is being processed ...
+\o *INFO* (icLic-309) The registration of the child 6523 within 90 seconds is being processed ...
 \o *INFO* (icLic-310) The result of registration is true. Spend time is 0 seconds.
 \o *INFO* (icLic-308) The end of connection. Result is true. Total spent time is 0 seconds.
 \o Loading viva.cxt 
@@ -164,14 +164,12 @@
 \o *Info*    The auto suspension is disabled.
 \o 
 \o Loading monte.cxt 
-\o *Info*    Run start for points ((4 1) (4 2))
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o *Info*    Run start for Point ID (4 1) on testbench [ assn:tb_main:1
+\o *Info*    Run start for Point ID (10 1) on testbench [ assn:tb_main:1
 \o           ].
 \o 
 \o Resetting statistical vars
@@ -179,46 +177,53 @@
 \o *Info*    Setting parameter values ...
 \o 
 \o Setting var Iref = "30u"
-\o Setting var Rload = "1M"
+\o Setting var Rload = "20k"
+\o Setting var Rs = "15k"
 \o Setting var VLNS = "0"
+\o Setting var VN = "0.5"
+\o Setting var VOS = "0.0243"
+\o Setting var VS0 = "0.443"
+\o Setting var VS1 = "0.469"
 \o Setting var VSG = "0.6"
-\o Setting var Vdd = "3.3"
+\o Setting var Vdd = "3"
 \o Setting var Vin = "50m"
 \o Setting var Vref = "1.3"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (4 1)
+\o *Info*    Creating Netlist for Point ID (10 1)
 \o 
 \o generate netlist...
 \o Loading seCore.cxt 
-\o Begin Incremental Netlisting Nov 23 18:24:40 2026
-\o WARNING (OSSHNL-160): The primitive, 'analogLib/vpulse/spectre', was not used in the last netlisting session in this
-\o current run directory. Therefore, re-netlisting all cell views where this
-\o primitive is instantiated.
+\o Begin Incremental Netlisting Nov 23 20:16:15 2026
+\o End netlisting Nov 23 20:16:15 2026
 \o 
-\o End netlisting Nov 23 18:24:40 2026
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   13
-\o 
-\o 	Elapsed time:          1.0s (13.00/s)
-\o Errors: 0	Warnings: 0
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o 
 \o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
-\o           Point ID (4 1).
+\o           Point ID (10 1).
 \o 
-\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:16:15 2026
+\o End netlisting Nov 23 20:16:15 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -228,67 +233,114 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (4 1) on testbench [
+\o *Info*    Run complete for Point ID (10 1) on testbench [
 \o           assn:tb_main:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (4 2) on testbench [ assn:tb_main:1
-\o           ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VLNS = "0.9"
-\o 
-\o *Info*    Data Directory    =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
-\o 
-\o 
-\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
-\o           Point ID (4 2).
-\o 
-\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (4 2) on testbench [
+\o *Info*    Run complete for Point ID (10 2) on testbench [
 \o           assn:tb_main:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Completed simulation for points ((4 1) (4 2)).
+\o *Info*    Client has finished evaluating ... 
 \o 
-\# Available memory:          5,213 MB at UTC 2026.11.23 07:24:49.370
-\# Memory report: Maximum memory size now 5,508 MB at UTC 2026.11.23 07:24:49.370
-\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.23 07:24:49.370
+\o 
+\o *Info*    Run complete for Point ID (10 3) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 5) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 6) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 7) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 8) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         304 MB, process size 1,430 MB at UTC 2026.11.23 09:16:22.162
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 9) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 10) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Available memory:          5,106 MB at UTC 2026.11.23 09:16:24.292
+\# Memory report: Maximum memory size now 5,412 MB at UTC 2026.11.23 09:16:24.292
+\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.23 09:16:24.293
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
@@ -313,14 +365,12 @@
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
-\o *Info*    Run start for points ((5 1) (5 2))
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o *Info*    Run start for Point ID (5 1) on testbench [ assn:tb_main:1
+\o *Info*    Run start for Point ID (11 1) on testbench [ assn:tb_main:1
 \o           ].
 \o 
 \o Resetting statistical vars
@@ -328,27 +378,234 @@
 \o *Info*    Setting parameter values ...
 \o 
 \o Setting var Iref = "30u"
-\o Setting var Rload = "1M"
+\o Setting var Rload = "20k"
+\o Setting var Rs = "15k"
 \o Setting var VLNS = "0"
+\o Setting var VN = "0.5"
+\o Setting var VOS = "0.0243"
+\o Setting var VS0 = "0.443"
+\o Setting var VS1 = "0.469"
 \o Setting var VSG = "0.6"
-\o Setting var Vdd = "3.3"
+\o Setting var Vdd = "3"
 \o Setting var Vin = "50m"
 \o Setting var Vref = "1.3"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/netlist
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (5 1)
+\o *Info*    Creating Netlist for Point ID (11 1)
 \o 
 \o generate netlist...
-\o Begin Incremental Netlisting Nov 23 18:26:02 2026
-\o End netlisting Nov 23 18:26:02 2026
+\o Begin Incremental Netlisting Nov 23 20:18:56 2026
+\o WARNING (OSSHNL-160): The primitive, 'analogLib/vpulse/spectre', was not used in the last netlisting session in this
+\o current run directory. Therefore, re-netlisting all cell views where this
+\o primitive is instantiated.
+\o 
+\o End netlisting Nov 23 20:18:56 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   13
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
+\o           Point ID (11 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:18:56 2026
+\o End netlisting Nov 23 20:18:56 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 1) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 3) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 5) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 6) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 7) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 8) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 9) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 10) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 1) on testbench [ assn:tb_main:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var Rs = "15k"
+\o Setting var VLNS = "0"
+\o Setting var VN = "0.5"
+\o Setting var VOS = "0.0243"
+\o Setting var VS0 = "0.443"
+\o Setting var VS1 = "0.469"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:20:31 2026
+\o End netlisting Nov 23 20:20:31 2026
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -357,9 +614,18 @@
 \o       ...successful.
 \o 
 \o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
-\o           Point ID (5 1).
+\o           Point ID (12 1).
 \o 
-\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:20:31 2026
+\o End netlisting Nov 23 20:20:31 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -368,41 +634,1093 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (5 1) on testbench [
+\o *Info*    Run complete for Point ID (12 1) on testbench [
 \o           assn:tb_main:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 2) on testbench [
+\o           assn:tb_main:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (5 2) on testbench [ assn:tb_main:1
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 3) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 5) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 6) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 7) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 8) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 9) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 10) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 11) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 12) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 13) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 14) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 15) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 16) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 17) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 18) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 19) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 20) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 21) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 22) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 23) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 24) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 25) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 26) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 27) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 28) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 29) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 30) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 31) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 32) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 33) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 34) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 35) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 36) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 37) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 38) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 39) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 40) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 41) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 42) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 43) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 44) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 45) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 46) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 47) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 48) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 49) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 50) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 51) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 52) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 53) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 54) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 55) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 56) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 57) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 58) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 59) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 60) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 61) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 62) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 63) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 64) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 65) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 66) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 67) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 68) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 69) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 70) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 71) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 72) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 73) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 74) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 75) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 76) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 77) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 78) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 79) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 80) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 81) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 82) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 83) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 84) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 85) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 86) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 87) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 88) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 89) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 90) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 91) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 92) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 93) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 94) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 95) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 96) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 97) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 98) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 99) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 100) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = assn
+\o 	Cell         = tb_main
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
+\o 	Results Loc  = /home/eleccds/simulation/assn/tb_main/maestro/results/maestro
+\o 	Project Dir  = /home/eleccds/simulation
+\o 	Setup DB loc = /home/eleccds/cadence/assn/tb_main/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 1) on testbench [ assn:tb_main:1
 \o           ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var VLNS = "0.9"
+\o Setting var Iref = "30u"
+\o Setting var Rload = "20k"
+\o Setting var Rs = "15k"
+\o Setting var VLNS = "0"
+\o Setting var VN = "0.5"
+\o Setting var VOS = "0.0243"
+\o Setting var VS0 = "0.443"
+\o Setting var VS1 = "0.469"
+\o Setting var VSG = "0.6"
+\o Setting var Vdd = "3"
+\o Setting var Vin = "50m"
+\o Setting var Vref = "1.3"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/netlist
+\o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1
+\o           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir
 \o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:22:35 2026
+\o End netlisting Nov 23 20:22:35 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
 \o 
 \o *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
-\o           Point ID (5 2).
+\o           Point ID (13 1).
 \o 
-\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/2/assn:tb_main:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 23 20:22:36 2026
+\o End netlisting Nov 23 20:22:36 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -411,22 +1729,1010 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (5 2) on testbench [
+\o *Info*    Run complete for Point ID (13 1) on testbench [
 \o           assn:tb_main:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Completed simulation for points ((5 1) (5 2)).
+\o *Info*    Client has finished evaluating ... 
 \o 
-\o Job 2 timed out after no activity in 300 seconds.
+\o 
+\o *Info*    Run complete for Point ID (13 2) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 3) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 4) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 5) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 6) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 7) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 8) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 9) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 10) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 11) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 12) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 13) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 14) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 15) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 16) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 17) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 18) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 19) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 20) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 21) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 22) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 23) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 24) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 25) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 26) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 27) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 28) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 29) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 30) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 31) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 32) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 33) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 34) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 35) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 36) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 37) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 38) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 39) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 40) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 41) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 42) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 43) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 44) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 45) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 46) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 47) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 48) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 49) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 50) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 51) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 52) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 53) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 54) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 55) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 56) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 57) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 58) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 59) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 60) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 61) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 62) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 63) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 64) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 65) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 66) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 67) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 68) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 69) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 70) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 71) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 72) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 73) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 74) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 75) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 76) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 77) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 78) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 79) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 80) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 81) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 82) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 83) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 84) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 85) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 86) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 87) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 88) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 89) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 90) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 91) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 92) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 93) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 94) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 95) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 96) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 97) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 98) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 99) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 100) on testbench [
+\o           assn:tb_main:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
@@ -434,3 +2740,5 @@
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
+\# Memory report: on exit            384 MB, process size 1,511 MB at UTC 2026.11.23 09:28:12.823
+\# Memory report: peak usage         384 MB, process size 1,511 MB

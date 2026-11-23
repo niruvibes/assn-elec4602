@@ -1,13 +1,14 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Nov 23 19:41:40 2026 
+Current time: Mon Nov 23 21:07:42 2026 
 Best design point: 1
 Design specs: 
 	assn:tb_main:1	corner	Nominal - 
+	integ(clip(((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS"))) 0.0002 0.0003))		283.2n
 Design parameters: 
 
 ExplorerRun.0
-Number of points completed: 4
+Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Nov 23 19:41:47 2026 
+Current time: Mon Nov 23 21:07:47 2026 

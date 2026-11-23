@@ -142,7 +142,7 @@
 				</tooloptions>
 				<vars>
 					<var>Vdd
-						<value>3.0 3.3</value>
+						<value>3.0</value>
 					</var>
 					<var>Vin
 						<value>50m</value>
@@ -157,7 +157,7 @@
 						<value>0.6</value>
 					</var>
 					<var>VLNS
-						<value>0 0.9</value>
+						<value>0</value>
 					</var>
 					<var>Rload
 						<value>20k</value>
@@ -223,6 +223,33 @@
 					<output>clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003)
 						<evalType>point</evalType>
 					</output>
+					<output>ymax(clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003))
+						<evalType>point</evalType>
+					</output>
+					<output>epsilon
+						<evalType>point</evalType>
+					</output>
+					<output>delta_sq
+						<evalType>point</evalType>
+					</output>
+					<output>Vout_min
+						<evalType>point</evalType>
+					</output>
+					<output>epsilon_lin
+						<evalType>point</evalType>
+					</output>
+					<output>"/"
+						<evalType>point</evalType>
+					</output>
+					<output>((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS")))
+						<evalType>point</evalType>
+					</output>
+					<output>integ(clip(((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS"))) 0.0002 0.0003))
+						<evalType>point</evalType>
+					</output>
+					<output>clip(((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS"))) 0.0002 0.0003)
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -270,6 +297,102 @@
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<allcornersenabled>0</allcornersenabled>
 		<allparametersdisabled>1</allparametersdisabled>
+		<runoptions>
+			<mode>Monte Carlo Sampling
+				<runoption>mcnumpoints
+					<value>100</value>
+				</runoption>
+				<runoption>mcYieldTarget
+					<value>99.865</value>
+				</runoption>
+				<runoption>mcnumbins
+					<value></value>
+				</runoption>
+				<runoption>samplingmode
+					<value>lds</value>
+				</runoption>
+				<runoption>yeyistostart
+					<value>3.0</value>
+				</runoption>
+				<runoption>dumpParamMode
+					<value>yes</value>
+				</runoption>
+				<runoption>mcYieldAlphaLimit
+					<value>0.05</value>
+				</runoption>
+				<runoption>mcstartingrunnumber
+					<value>1</value>
+				</runoption>
+				<runoption>mcSigmaTarget
+					<value>3</value>
+				</runoption>
+				<runoption>montecarloseed
+					<value>12345</value>
+				</runoption>
+				<runoption>sssnumpoints
+					<value>7000</value>
+				</runoption>
+				<runoption>yeexpectedyield
+					<value>3</value>
+				</runoption>
+				<runoption>mcmethod
+					<value>mismatch</value>
+				</runoption>
+				<runoption>wcdinitialpoints
+					<value>200</value>
+				</runoption>
+				<runoption>yeiterations
+					<value>10</value>
+				</runoption>
+				<runoption>saveallplots
+					<value>1</value>
+				</runoption>
+				<runoption>yeusehistorymc
+					<value>0</value>
+				</runoption>
+				<runoption>saveprocess
+					<value>1</value>
+				</runoption>
+				<runoption>yeuseautomcsamples
+					<value>1</value>
+				</runoption>
+				<runoption>mcStopEarly
+					<value>0</value>
+				</runoption>
+				<runoption>yecreatecorners
+					<value>0</value>
+				</runoption>
+				<runoption>savemismatch
+					<value>1</value>
+				</runoption>
+				<runoption>haveyeyieldtostart
+					<value>1</value>
+				</runoption>
+				<runoption>yeusevarreduction
+					<value>1</value>
+				</runoption>
+			</mode>
+		</runoptions>
+		<specs>
+			<spec>assn:tb_main:1.Vout_min
+				<testname>assn:tb_main:1</testname>
+				<resname>Vout_min</resname>
+				<specType>gt</specType>
+				<min>0</min>
+				<max></max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>assn:tb_main:1.ymax(clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003))
+				<testname>assn:tb_main:1</testname>
+				<resname>ymax(clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003))</resname>
+				<specType>gt</specType>
+				<min>500m</min>
+				<max></max>
+				<target></target>
+				<tol></tol>
+			</spec>
+		</specs>
 	</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">nominal_dc_both_modes
@@ -842,7 +965,7 @@
 						</tooloptions>
 						<vars>
 							<var>Vdd
-								<value>3.0 3.3</value>
+								<value>3.0</value>
 							</var>
 							<var>Vin
 								<value>50m</value>
@@ -857,7 +980,7 @@
 								<value>0.6</value>
 							</var>
 							<var>VLNS
-								<value>0 0.9</value>
+								<value>0</value>
 							</var>
 							<var>Rload
 								<value>20k</value>
@@ -921,6 +1044,33 @@
 								<evalType>point</evalType>
 							</output>
 							<output>clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003)
+								<evalType>point</evalType>
+							</output>
+							<output>ymax(clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003))
+								<evalType>point</evalType>
+							</output>
+							<output>epsilon
+								<evalType>point</evalType>
+							</output>
+							<output>delta_sq
+								<evalType>point</evalType>
+							</output>
+							<output>Vout_min
+								<evalType>point</evalType>
+							</output>
+							<output>epsilon_lin
+								<evalType>point</evalType>
+							</output>
+							<output>"/"
+								<evalType>point</evalType>
+							</output>
+							<output>((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS")))
+								<evalType>point</evalType>
+							</output>
+							<output>integ(clip(((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS"))) 0.0002 0.0003))
+								<evalType>point</evalType>
+							</output>
+							<output>clip(((VAR("Vdd") * IT("/I0/Vdd")) - (VAR("VSG") * IT("/V4/PLUS"))) 0.0002 0.0003)
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -1021,6 +1171,83 @@
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<allcornersenabled>0</allcornersenabled>
 				<allparametersdisabled>1</allparametersdisabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>mismatch</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>1</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<specs></specs>
 				<runnabletests>
 					<test>assn:tb_main:1</test>
 				</runnabletests>
@@ -1029,7 +1256,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 19:41:40 2026</timestamp>
+			<timestamp>Nov 23 21:07:42 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1037,7 +1264,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_194140709</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_210742197</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>

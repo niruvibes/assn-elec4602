@@ -31,7 +31,7 @@
 
 
 
-*Info*    Run start for Point ID (3 1) on testbench [ assn:tb_main:1
+*Info*    Run start for Point ID (18 1) on testbench [ assn:tb_main:1
           ].
 
 Resetting statistical vars
@@ -39,11 +39,17 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var Iref = "30u"
-Setting var VLNS = "0"
-Setting var VSG = "50m"
-Setting var Vdd = "3.3"
+Setting var Rload = "20k"
+Setting var Rs = "15k"
+Setting var VLNS = "0.9"
+Setting var VN = "0.5"
+Setting var VOS = "0.0243"
+Setting var VS0 = "0.443"
+Setting var VS1 = "0.469"
+Setting var VSG = "0.6"
+Setting var Vdd = "3"
 Setting var Vin = "50m"
-Setting var Vref = "950m"
+Setting var Vref = "1.3"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -54,23 +60,20 @@ Setting temp(T) = 27
           /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1
 
 
-*Info*    Creating Netlist for Point ID (3 1)
+*Info*    Creating Netlist for Point ID (18 1)
 
 generate netlist...
-Begin Incremental Netlisting Nov 23 10:06:42 2026
-End netlisting Nov 23 10:06:42 2026
+Begin Incremental Netlisting Nov 23 21:01:43 2026
+End netlisting Nov 23 21:01:43 2026
 
-Netlisting Statistics:
-	Number of components:   13
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ assn:tb_main:1 ] for
-          Point ID (3 1).
+          Point ID (18 1).
 
 Delete psf data in /home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0/1/assn:tb_main:1/psf.
 compose simulator input file...
@@ -87,7 +90,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (3 1) on testbench [
+*Info*    Run complete for Point ID (18 1) on testbench [
           assn:tb_main:1 ].
 
 
