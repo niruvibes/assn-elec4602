@@ -109,3 +109,117 @@
 \a cdsLibManager->cellListBox->value = "main"
 \a cdsLibManager->cellLineEdit->value = "main"
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "tb_inputDifferential"
+\a cdsLibManager->cellLineEdit->value = "tb_inputDifferential"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "assn"
+\a cdsLibManager->libLineEdit->value = "assn"
+\a cdsLibManager->cellListBox->value = "tb_inputDifferential"
+\a cdsLibManager->cellLineEdit->value = "tb_inputDifferential"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "tb_levelShifter"
+\a cdsLibManager->cellLineEdit->value = "tb_levelShifter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 6 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "assn"
+\a cdsLibManager->libLineEdit->value = "assn"
+\a cdsLibManager->cellListBox->value = "tb_levelShifter"
+\a cdsLibManager->cellLineEdit->value = "tb_levelShifter"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "tb_main"
+\a cdsLibManager->cellLineEdit->value = "tb_main"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 7 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "assn"
+\a cdsLibManager->libLineEdit->value = "assn"
+\a cdsLibManager->cellListBox->value = "tb_main"
+\a cdsLibManager->cellLineEdit->value = "tb_main"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "tb_main.bak"
+\a cdsLibManager->cellLineEdit->value = "tb_main.bak"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "assn"
+\a cdsLibManager->libLineEdit->value = "assn"
+\a cdsLibManager->cellListBox->value = "tb_main.bak"
+\a cdsLibManager->cellLineEdit->value = "tb_main.bak"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "tb_opamp"
+\a cdsLibManager->cellLineEdit->value = "tb_opamp"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 9 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "assn"
+\a cdsLibManager->libLineEdit->value = "assn"
+\a cdsLibManager->cellListBox->value = "tb_opamp"
+\a cdsLibManager->cellLineEdit->value = "tb_opamp"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a nrSetCurrentWindow(cdsLibManager)
