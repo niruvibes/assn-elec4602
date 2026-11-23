@@ -87,6 +87,15 @@
 					<output>(VS("/Vin") - VS("/Vsg"))
 						<evalType>point</evalType>
 					</output>
+					<output>(VT("/Vin") - VT("/Vsg"))
+						<evalType>point</evalType>
+					</output>
+					<output>clip((VT("/Vin") - VT("/Vsg")) 0.0002 0.0003)
+						<evalType>point</evalType>
+					</output>
+					<output>clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003)
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -431,6 +440,15 @@
 							<output>(VS("/Vin") - VS("/Vsg"))
 								<evalType>point</evalType>
 							</output>
+							<output>(VT("/Vin") - VT("/Vsg"))
+								<evalType>point</evalType>
+							</output>
+							<output>clip((VT("/Vin") - VT("/Vsg")) 0.0002 0.0003)
+								<evalType>point</evalType>
+							</output>
+							<output>clip((VT("/Vout") - VT("/Vsg")) 0.0002 0.0003)
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
@@ -535,7 +553,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 18:13:58 2026</timestamp>
+			<timestamp>Nov 23 18:26:02 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -543,7 +561,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_181358945</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_182602087</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
