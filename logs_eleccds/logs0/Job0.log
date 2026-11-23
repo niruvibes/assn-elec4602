@@ -284,3 +284,11 @@
 \# Available memory:          5,268 MB at UTC 2026.11.23 07:48:53.211
 \# Memory report: Maximum memory size now 5,562 MB at UTC 2026.11.23 07:48:53.211
 \# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.23 07:48:53.211
+\o Job 0 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

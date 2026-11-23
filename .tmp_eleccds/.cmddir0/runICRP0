@@ -1,7 +1,0 @@
-#!/bin/sh
-cdsVncserver :95
-sleep 3
-cd /home/eleccds/cadence
-virtuoso -noautostart -mpssession "virtuoso19890" -mpshost "vbox" -davinciService "DaVinciService_19890_1795420118" -log '/home/eleccds/cadence/logs_eleccds/logs0/Job0.log'  -licenseLockFileName '/home/eleccds/cadence/.tmp_eleccds/.vbox_19890'  -axlChildIdFlag 0 1>/dev/null  2>/dev/null 
-exit $?
-

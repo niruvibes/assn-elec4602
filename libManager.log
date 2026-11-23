@@ -35,3 +35,7 @@
 \a cdsLibManager->libLineEdit->value = "assn"
 \a cdsLibManager->cellListBox->value = "tb_main"
 \a cdsLibManager->cellLineEdit->value = "tb_main"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

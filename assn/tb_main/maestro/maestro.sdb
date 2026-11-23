@@ -48,7 +48,19 @@
 						<value>0 0.9</value>
 					</var>
 					<var>Rload
-						<value>1M</value>
+						<value>10k 20k 100k 1M</value>
+					</var>
+					<var>VN
+						<value>0.5</value>
+					</var>
+					<var>VS0
+						<value>0.443</value>
+					</var>
+					<var>VS1
+						<value>0.469</value>
+					</var>
+					<var>VOS
+						<value>0.0243</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -621,6 +633,18 @@
 							<var>Rload
 								<value>1M</value>
 							</var>
+							<var>VN
+								<value>0.5</value>
+							</var>
+							<var>VS0
+								<value>0.443</value>
+							</var>
+							<var>VS1
+								<value>0.469</value>
+							</var>
+							<var>VOS
+								<value>0.0243</value>
+							</var>
 						</vars>
 						<origoptions>
 							<option>cell
@@ -771,7 +795,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 23 18:48:43 2026</timestamp>
+			<timestamp>Nov 23 19:03:52 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/assn/tb_main/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -779,7 +803,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_184843522</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_190352044</localpsfdir>
 			<psfdir>/home/eleccds/simulation/assn/tb_main/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/assn/tb_main/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
