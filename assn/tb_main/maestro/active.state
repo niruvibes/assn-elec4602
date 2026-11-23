@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 19:22:20" version="5">active
+<statedb ICVersion="IC6.1.7-64b.500.23" modifiedTime="11/23/2026 19:41:06" version="5">active
 	<Test Name="assn:tb_main:1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
@@ -956,24 +956,29 @@
 					<field Name="index" Type="fixnum">7</field>
 				</field>
 				<field Name="saveComponent_7" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"VN"</field>
-					<field Name="expression" Type="string">"0.5"</field>
+					<field Name="name" Type="string">"Rs"</field>
+					<field Name="expression" Type="string">"15k"</field>
 					<field Name="index" Type="fixnum">8</field>
 				</field>
 				<field Name="saveComponent_8" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"VS0"</field>
-					<field Name="expression" Type="string">"0.443"</field>
+					<field Name="name" Type="string">"VN"</field>
+					<field Name="expression" Type="string">"0.5"</field>
 					<field Name="index" Type="fixnum">9</field>
 				</field>
 				<field Name="saveComponent_9" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"VS1"</field>
-					<field Name="expression" Type="string">"0.469"</field>
+					<field Name="name" Type="string">"VS0"</field>
+					<field Name="expression" Type="string">"0.443"</field>
 					<field Name="index" Type="fixnum">10</field>
 				</field>
 				<field Name="saveComponent_10" Type="defstruct">sevVariableStruct
+					<field Name="name" Type="string">"VS1"</field>
+					<field Name="expression" Type="string">"0.469"</field>
+					<field Name="index" Type="fixnum">11</field>
+				</field>
+				<field Name="saveComponent_11" Type="defstruct">sevVariableStruct
 					<field Name="name" Type="string">"VOS"</field>
 					<field Name="expression" Type="string">"0.0243"</field>
-					<field Name="index" Type="fixnum">11</field>
+					<field Name="index" Type="fixnum">12</field>
 				</field>
 			</field>
 		</component>

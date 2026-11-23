@@ -1,17 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Nov 23 19:22:20 2026 
+Current time: Mon Nov 23 19:41:06 2026 
 Best design point: 1
 Design specs: 
-	assn:tb_main:1	corner	FF - 
-	assn:tb_main:1	corner	SF - 
-	assn:tb_main:1	corner	FS - 
-	assn:tb_main:1	corner	SS - 
 	assn:tb_main:1	corner	Nominal - 
 Design parameters: 
 
 ExplorerRun.0
-Number of points completed: 2
+Number of points completed: 4
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Nov 23 19:23:02 2026 
+Current time: Mon Nov 23 19:41:12 2026 
